@@ -9,6 +9,7 @@ module.exports = {
     'babel-plugin-syntax-jsx',
     'babel-plugin-syntax-object-rest-spread',
     'babel-plugin-syntax-trailing-function-commas',
+    'babel-plugin-transform-async-to-generator',
     ['babel-plugin-transform-async-to-module-method', {
       'module': 'bluebird',
       'method': 'coroutine',
@@ -19,7 +20,7 @@ module.exports = {
     'babel-plugin-transform-exponentiation-operator',
     'babel-plugin-transform-object-rest-spread',
     'babel-plugin-transform-flow-strip-types',
-    // 'babel-plugin-transform-react-constant-elements',
+    'babel-plugin-transform-react-constant-elements',
     'babel-plugin-transform-react-display-name',
     'babel-plugin-transform-react-inline-elements',
     'babel-plugin-transform-react-jsx',
@@ -51,4 +52,5 @@ module.exports = {
     'babel-plugin-transform-es2015-unicode-regex',
     ['babel-plugin-transform-es2015-modules-commonjs', { loose: true }],
   ],
+  sourceMaps: 'both',
 };
