@@ -1,4 +1,3 @@
-require('source-map-support/register');
 require('babel-register')({
   only: ['config'],
   presets: ['./config/babel/node/dev'],
